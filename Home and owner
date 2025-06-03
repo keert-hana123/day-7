@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title style="text-align:center">Home Page</title>
+        <style>
+            body{
+                
+                word-spacing: 50px;
+                text-align:right; 
+            }
+            
+        </style>
+    </head>
+    <body>
+            <a class="home" href ="index.html">HOME</a>
+            <a class="owner" href ="ownerJsp.jsp">OWNER</a>
+        
+        
+    </body>
+</html>

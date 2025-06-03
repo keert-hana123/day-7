@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+            body{
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FrPAZYOFgldtpOg4XejZsNLULzHcxjimSA&s');
+        background-size: 1500px;
+            }
+            header, footer {
+                background-color: cadetblue;
+                color: white;
+                text-align: center;
+            }
+            
+            
+            </style>
+            </head>
+            <body>  
+            <center>
+                <header><h2>Cloud Computing</h2></header>
+                <h1 style="color:white">Owner Login Page</h1>
+                <form>
+                    <label for="uname" style="color: white">Username:</label><br>
+                    <input type="text" id="uname" name="uname" value=""><br>
+                    <label for="password" style="color: white">Password:</label><br>
+                    <input type="password" id="pass" name="pass" value=""><br>
+        <button type="Submit">Login</button>
+        <a class="OwnerNew" href="NewOwner.jsp">New Owner</a>
+        </form>
+                <footer>
+                    <p>Registration for cloud</p>
+                </footer>
+                </center>
+    </body>
+</html>
